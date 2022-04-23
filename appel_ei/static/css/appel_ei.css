@@ -1,0 +1,78 @@
+.bg-appel_ei-green {
+    background-color: rgb(83, 193, 110)!important;
+}
+
+.dd_color {
+    background-color:  rgb(83, 193, 110)!important;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-size: 1.1rem;
+    }
+.bg-appel_ei-jumbo {
+    background-color: rgb(83, 193, 110);
+}
+
+.align{
+    width:100px;
+    height:100px;
+    float:right;
+    margin-top: 0%;
+}
+.bg_color {
+    background-color: rgb(233, 219, 201);
+    height: 100%;
+    position: relative;
+}
+.align_banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+/* footer styling*/
+#page-container{
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 5rem;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    background-color:rgb(229, 210, 174);
+    border-top:rgb(243, 236, 222);
+    border-top-style: solid;
+    
+}
+
+/* winkel page and all pages with image grids*/
+.winkel_page{
+    box-sizing: border-box;
+} 
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+.column img {
+    margin-top: 12px;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column_k {
+    float: left;
+    width: 33%;
+    padding: 10px;
+  }
+  
+/*homepage1*/
+

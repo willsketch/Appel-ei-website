@@ -1,0 +1,1 @@
+web: gunicorn appel_ei.wsgi --log-file -

@@ -1,0 +1,26 @@
+{%extends 'appel_ei/base.html' %}
+{% load bootstrap4 %}
+{%load static%}
+
+
+{%block page_header%}
+<div class="card bg-dark text-white" style="width: auto; height: auto;">
+  <img src="{% static 'images/homepage.jpg'%}" class="card-img" alt="..." style=" width: auto; height:80vh;">
+  <div class="card-img-overlay">
+    <h5 class="card-title" style="font-size: 500%; position: absolute; bottom: 8px; left: 16px;">Appel&Ei</h5>
+  </div>
+</div>
+{%endblock page_header%}
+
+{%block content%}
+<p class="" style="font-size: xx-large; font-family:'Times New Roman', Times, serif">De sociale kruidenier is een plaats waar enthousiaste vrijwilligers en mensen uit kansengroepen
+  samen werken om armoede, achterstelling en social isolement in Schoten te bestrijden.
+</p>
+{%endblock content%}
+<script language="JavaScript" type="text/javascript">
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 3000
+    })
+  });    
+</script> 

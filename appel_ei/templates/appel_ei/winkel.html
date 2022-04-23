@@ -1,0 +1,37 @@
+{% extends 'appel_ei/base.html' %}
+{%load bootstrap4%}
+{%load static%}
+
+{%block page_header%}
+<div class="winkel_page">
+    <div class="header">
+        <h1>Welkom in onze winkel</h1>
+    </div>
+  <!-- Photo Grid -->
+    <div class="row"> 
+        <div class="column">
+            <img src="{% static 'winkel/winkel11.jpg' %}" style="width: 100%;">  
+            <img src="{% static 'winkel/winkel1.jpg' %}" alt="" style="width: 100%;">
+        </div>
+        <div class="column">
+            <img src="{% static 'winkel/winkel5.jpg' %}" alt="" style="width: 100%;">
+            <img src="{% static 'winkel/winkel6.jpg' %}" alt="" style="width: 100%;">
+        </div>
+    </div>
+</div>
+{%endblock page_header%}
+
+{%block content%}
+<p>Inwoners van Schoten die het financieel moeilijk hebben, zijn bij ons van harte welkom.
+<br>Na doorverwijzing van onder andere OCMW en Kind en Gezin kan je bij ons terecht. Ook als je een verhoogde tegemoetkoming van het ziekenfonds krijgt, ontvangen we je met open armen.</p>
+<p>Afhankelijk van je gezinssituatie (alleenstaande, gezin of gezin met kinderen) kan je bij Appel & Ei wekelijks voor een maximumbedrag komen winkelen (dat gaat van 17 euro tot 35 euro per week).</p>
+<p>Op maandagochtend (10.00-13.00) en woensdagnamiddag (13:00-16:00) gaan de deuren voor je open. 
+<br>In onze winkel verkopen we producten met kortingen tot 30%. Bestel je groenten en fruit op voorhand? Dan krijg je nog extra korting. Zo kan er budgetvriendelijk en gezond gewinkeld worden.</p>
+<p>We hebben ook een fijne samenwerking met enkele Schotense bakkers: brood dat niet verkocht is maar nog kakelvers, mogen we bij hen komen ophalen. Voor een klein brood betaal je bij ons 20 cent, voor een groot brood 40 cent.</p>
+<p>Afrekenen doe je bij ons bij voorkeur contactloos met je bankkaart.</p>
+<p>Denk je in aanmerking te komen als klant van Appel & Ei? 
+<br>Je kan ons bereiken via onze <a href="{% url 'appel_ei:contact'%}">contact pagina</a>. Je kan ook eens binnenspringen tijdens de openingsuren.
+<br>Wij helpen je graag verder.</p>
+
+
+{%endblock content%}

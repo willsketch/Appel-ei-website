@@ -1,0 +1,46 @@
+{%extends 'appel_ei/base.html'%}
+{%load static%}
+{%block page_header%}
+<div class="winkel_page">
+    <div class="header">
+        <h1>Knip knip…</h1>
+    </div>
+  <!-- Photo Grid -->
+    <div class="row"> 
+        <div class="column_k">
+            <img src="{% static 'kapper/kapper1.jpg' %}" style="width: 100%;">
+        </div>
+        <div class="column_k">
+            <img src="{% static 'kapper/kapper2.jpg' %}" style="width: 100%;">
+        </div>
+        <div class="column_k">
+            <img src="{% static 'kapper/kapper3.jpg' %}" style="width: 100%;">
+        </div>
+        
+    </div>
+</div>
+{%endblock page_header%}
+
+{%block content %}
+
+<p>Naar de kapper gaan is af en toe noodzakelijk maar kost wel een flinke hap uit het budget.
+<br>Konden we daar onze klanten mee helpen?</p>
+<p>We trokken naar de kappersschool van het vlakbij gelegen Atheneum.
+    Een fijne babbel met de leerkracht leidde tot een toffe samenwerking. Onze klanten kunnen er nu terecht om zich een fris kapsel te laten aanmeten.
+    De leerlingen van het 5de en 6de jaar haartooi zorgen ervoor dat de klanten er steeds netjes buiten gaan.
+</p>
+<p>Hoe gaat dit in zijn werk?
+<ul>
+    <li>De klant reserveert bij Appel&Ei een plaats tijdens zijn winkelmoment en betaalt 5€.
+         Hij krijgt een briefje mee waar de afspraak op genoteerd staat.</li>
+    <li>De klant kan in de kappersschool terecht op dinsdag en vrijdag om 9u30 en op donderdag om 10u (niet tijdens de schoolvakanties).</li>
+    <li>Wij verwittigen de leerkracht welke klant er wanneer komt.</li>
+    <li>De klant gaat op het afgesproken tijdstip naar de kappersschool en toont daar zijn kaartje van Appel&Ei. Een gewone knipbeurt is dan gratis, enkel voor extra's zoals bv. haar verven betaalt de klant ter plaatse een supplement.</li>
+    <li>Bij de volgende winkelbeurt bij Appel&Ei geeft de klant zijn briefje terug en krijgt hij 4€ terugbetaald. Zo kost een kappersbeurt hem slechts 1€.</li>
+    <li>We vragen aan onze klanten om tijdig te verwittigen als ze toch niet naar hun afspraak kunnen gaan zodat wij ook de leerkracht hiervan op de hoogte kunnen stellen.</li>
+
+</ul>
+</p>
+<p>We zijn heel blij met deze samenwerking en hopen nog veel klanten gelukkig te kunnen maken met een mooi kapsel.</p>
+
+{%endblock content%}

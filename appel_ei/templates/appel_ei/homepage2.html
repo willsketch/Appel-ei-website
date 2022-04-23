@@ -1,0 +1,33 @@
+{% extends 'appel_ei/base.html'%}
+{% load bootstrap4 %}
+{%load static%}
+{%block page_header%}
+<head>
+    <style>
+        .back-g{
+            min-height: 100%;
+            max-height: 100%;
+            min-width: 100%;
+            z-index: -1;
+            width: 100%;
+            height: auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+
+{%endblock page_header%}
+
+{%block content%}
+<img src="{% static 'images/home2.jpg'%}" class="back-g">
+<div class="card " style="width: 100%; bottom:-40vh; background-color:rgb(233, 225, 211); opacity: 0.9;">
+    <div class="card-body">
+        <h5 class="card-title " style="font-size: 300%;">Apple&Ei</h5>
+        <p class="card-text" style="font-size: large;">De socialekruidenier is een plaats waar enthousiaste vrijwilligers en mensen uit kansengroepen samen werken om armoede, achterstelling en social isolement in Schoten te bestrijden.</p>
+
+</div>
+{%endblock content%}
+ 

@@ -1,0 +1,28 @@
+{%extends 'appel_ei/base.html'%}
+{%load static%}
+{%block page_header%}
+<div class="winkel_page">
+    <div class="header">
+        <h1>“Sinterklaas kapoentje…</h1>
+    </div>
+  <!-- Photo Grid -->
+    <div class="row"> 
+        <div class="column">
+            <img src="{% static 'speelgoedactie/speelgoed1.jpg' %}" style="width: 100%;">
+            <img src="{% static 'speelgoedactie/speelgoed5.jpg' %}" style="width: 100%;">
+        </div>
+        <div class="column">
+            <img src="{% static 'speelgoedactie/speelgoed3.jpg' %}" style="width: 100%;">
+            <img src="{% static 'speelgoedactie/speelgoed4.jpg' %}" style="width: 100%;">
+        </div>
+    </div>
+</div>
+{% endblock page_header%}
+
+{%block content %}
+<p>…leg wat in mijn schoentje…” Elk jaar op 6 december worden kinderen door de Sint verwend met speelgoed. Papa en mama, die als sponsors optreden, doen hun uiterste best om alle kinderen van leuke spulletjes te voorzien. Daar hangt uiteraard een prijskaartje aan vast. En daarmee kunnen we natuurlijk helpen…</p>
+<p>Eind november werpen heel wat ouders een blik in de speelgoedkast. Waarvoor zijn de kinderen te groot geworden? Waar hebben ze weinig mee gespeeld en wat is nog in goede staat om weg te schenken? Dat speelgoed (inclusief massa’s schattige knuffels)  belandt allemaal op onze magische speelgoedzolder. Heel wat vrijwilligers verzamelen en ordenen alles. Soms moet er hier en daar eens iets uitgetest worden (werkt het speelgoed nog naar behoren, zijn alle onderdeeltjes erbij,…).</p>
+<p>Begin december worden de klanten (zonder de kinderen natuurlijk) verwacht op onze zolder om fijne verrassingen voor hun kroost te komen uitkiezen. En dan kan op 6 december de pret beginnen!</p>
+<p>Concrete data voor binnenbrengen en uitkiezen van speelgoed vind je bij de nieuwsberichten.</p>
+
+{%endblock content%}
