@@ -1,1 +1,1 @@
-web: gunicorn appel_ei.wsgi --log-file -
+web: gunicorn mysite.wsgi --log-file -
